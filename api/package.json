@@ -1,0 +1,22 @@
+{
+  "name": "fsd_ts_backend",
+  "version": "1.0.0",
+  "description": "Time and metrics API",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "author": "Imran Pardes",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.20.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.26.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-generator": "^4.16.1",
+    "express-prometheus-middleware": "^1.2.0"
+  }
+}
