@@ -28,8 +28,6 @@ const Time = () => {
             h = `0${h}`;
         }
 
-        console.log(`${h}:${m}:${s}`);
-
         return `${h}:${m}:${s}`;
     }
 
