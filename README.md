@@ -10,7 +10,7 @@
 
  1) clone repo: `git clone https://github.com/mip-se/fsd.git`
  2) install dependencies for both folders: 
- `cd fsd && cd ./api && npm run i && cd .. && cd ../frontend && npm run i`
+ `cd fsd && cd ./api && npm i && cd .. && cd ./frontend && npm i`
  3) start express server for `./api` by running `npm run start`, this will open on on port `3000` however this can be changed by setting port by `export PORT=3001`
 4) run react-app in `./frontend` by running `npm run start`
 5) If you wish to see the loading element whilst a request is made to either `/metric` or `/time` endpoint, it is recommended to throttle the network to Slow 3G.
